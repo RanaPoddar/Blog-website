@@ -58,7 +58,7 @@ function Content() {
   
   useEffect( () => {
       async function fetchBlogs() {
-          let url = `http://localhost:3000/blogs?page=${currentPage}&limit=${pageSize}`;
+          let url = `https://blog-website-1-bv96.onrender.com/blogs?page=${currentPage}&limit=${pageSize}`;
   
           // filter by category
           if(selectedCategory) {
